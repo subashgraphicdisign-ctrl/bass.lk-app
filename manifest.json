@@ -7,7 +7,7 @@
   "theme_color": "#fcc200",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "https://raw.githubusercontent.com/subashgraphicdisign-ctrl/bass.lk-app/main/icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
