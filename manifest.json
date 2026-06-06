@@ -1,0 +1,15 @@
+{
+  "name": "BASS.lk Pro",
+  "short_name": "BASS.lk",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#fcc200",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
