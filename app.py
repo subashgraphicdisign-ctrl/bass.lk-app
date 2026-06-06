@@ -9,7 +9,11 @@ SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJ
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # --- UI DESIGN & STYLES ---
-st.set_page_config(page_title="BASS.lk Pro", layout="wide")
+st.markdown("""
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#fcc200">
+    <link rel="apple-touch-icon" href="icon.png">
+""", unsafe_allow_html=True)
 
 def set_style(bg_img):
     st.markdown(f"""
