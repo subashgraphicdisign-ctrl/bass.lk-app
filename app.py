@@ -10,11 +10,10 @@ supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # --- UI DESIGN & STYLES ---
 st.markdown("""
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="https://raw.githubusercontent.com/subashgraphicdisign-ctrl/bass.lk-app/main/manifest.json">
     <meta name="theme-color" content="#fcc200">
-    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/subashgraphicdisign-ctrl/bass.lk-app/main/icon.png">
 """, unsafe_allow_html=True)
-
 def set_style(bg_img):
     st.markdown(f"""
     <style>
