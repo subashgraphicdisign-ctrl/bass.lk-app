@@ -8,10 +8,14 @@ SUPABASE_URL = "https://vgqutvglgfqvxcywlkkd.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZncXV0dmdsZ2ZxdnhjeXdsa2tkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA1MzE2OTQsImV4cCI6MjA5NjEwNzY5NH0.gQhVgbp8vtFYtKFRPQwc8_kyn-uLXxEvhCvBdfhztRc"
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-# --- UI DESIGN & STYLES ---
+st.set_page_config(page_title="BASS.lk", page_icon="icon.png")
+
 st.markdown("""
-    <link rel="manifest" href="https://bass.lk-app.github.io/bass.lk-app/manifest.json">
-    <link rel="apple-touch-icon" href="https://bass.lk-app.github.io/bass.lk-app/icon.png">
+    <link rel="manifest" href="https://raw.githubusercontent.com/subashgraphicdisign-ctrl/bass.lk-app/main/manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="BASS.lk">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/subashgraphicdisign-ctrl/bass.lk-app/main/icon.png">
 """, unsafe_allow_html=True)
 def set_style(bg_img):
     st.markdown(f"""
